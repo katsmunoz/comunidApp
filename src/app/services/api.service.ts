@@ -11,7 +11,7 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   getProducts() {
-    const url = `${environment.apiUrl}/products`;
+    const url = `${environment.apiUrl}`;
     return this.http.get<Product[]>(url);
   }
 }
