@@ -33,18 +33,30 @@
     <p>See all</p>
   </div>
 
+  <ion-content>
+    <ion-card color="light" *ngFor="let product of products">
+      <ion-img [src]="product.image" alt="Product Image"></ion-img>
+      <ion-card-header>
+        <ion-card-title>
+          <h2>{{ product.title }}</h2>
+        </ion-card-title>
+        <ion-card-subtitle>Precio: ${{ product.price }}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-content>
+      </ion-content>
+    </ion-card>
+  </ion-content>
+
 <ion-content>
-  <ion-card>
   <ion-list>
     <ion-item *ngFor="let product of products">
       <ion-thumbnail slot="start">
         <img [src]="product.image" alt="Product Image">
       </ion-thumbnail>
       <ion-label>
-        <h2>{{ product.name }}</h2>
+        <h2>{{ product.title }}</h2>
         <p>Precio: ${{ product.price }}</p>
       </ion-label>
     </ion-item>
   </ion-list>
-</ion-card>
 </ion-content>
