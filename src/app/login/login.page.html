@@ -7,9 +7,20 @@
 <ion-content class="ion-padding">
   <div class="ion-text-center">
     <h1>Bienvenido</h1>
-    <input type="text" placeholder="usuario" [(ngModel)]="user"><br><br>
-    <input type="password" placeholder="contraseña"><br><br>
-    <ion-button type="button" style="font-size: medium; background-color: blue;" (click)="login()">ingresar</ion-button>
+    <ion-input type="text"
+    label="Usuario" 
+    label-placement="floating" 
+    fill="outline" 
+    placeholder="Usuario" 
+    [(ngModel)]="user">
+    </ion-input>
+    <ion-input type="password"
+    label="Contraseña" 
+    label-placement="floating" 
+    fill="outline" 
+    placeholder="Contraseña">
+    </ion-input><br><br>
+    <ion-button type="button" style="font-size: medium; background-color: aquamarine;" (click)="login()">Ingresar</ion-button>
   </div>
 
 

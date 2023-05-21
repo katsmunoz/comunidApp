@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { ApiService } from '../services/api.service';
 import { Product } from '../models/product';
+import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
