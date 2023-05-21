@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <div>
-      <h2>Mi Caserita</h2>
+      <h2>ComunidApp</h2>
     </div>
     <ion-buttons slot="start">
       <ion-menu-button>
@@ -14,7 +14,7 @@
         <span>&nbsp;</span>
       </ion-button>
       <ion-button class="filter">
-        <ion-icon name="funnel-outline" color="dark"></ion-icon>
+        <ion-icon name="cart-outline" color="dark"></ion-icon>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
@@ -47,16 +47,4 @@
     </ion-card>
   </ion-content>
 
-<ion-content>
-  <ion-list>
-    <ion-item *ngFor="let product of products">
-      <ion-thumbnail slot="start">
-        <img [src]="product.image" alt="Product Image">
-      </ion-thumbnail>
-      <ion-label>
-        <h2>{{ product.title }}</h2>
-        <p>Precio: ${{ product.price }}</p>
-      </ion-label>
-    </ion-item>
-  </ion-list>
-</ion-content>
+
