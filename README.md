@@ -129,7 +129,6 @@ Por el momento no. Pero nos gustaría ;
 
 Puedes ver la demostración en video en el siguiente Link de LOOM https://www.loom.com/share/fd76906b7aff41ab98848252533bc13a
 
-### ¿Cuál es el proceso de solicitud de extracción (pull request) y revisión de cambios en este proyecto?
 ## Licencias Open Source
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
